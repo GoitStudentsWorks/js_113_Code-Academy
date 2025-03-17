@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/Code-Academy/",
+    "build": "vite build --base=/js_113_Code-Academy/",
     "preview": "vite preview"
   },
   "devDependencies": {
