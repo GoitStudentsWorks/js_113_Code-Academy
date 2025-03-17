@@ -1,0 +1,1204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/js_113_Code-Academy/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script type="module" crossorigin src="/js_113_Code-Academy/index.js"></script>
+    <link rel="modulepreload" crossorigin href="/js_113_Code-Academy/assets/vendor-CU_p4DQ2.js">
+    <link rel="stylesheet" crossorigin href="/js_113_Code-Academy/assets/vendor-CNsKelwJ.css">
+    <link rel="stylesheet" crossorigin href="/js_113_Code-Academy/assets/index-BxPVvJGV.css">
+  </head>
+  <body>
+    <header class="header">
+  <div class="container header-container">
+    <div class="header__container">
+      <div class="container-inner">
+        <div class="logo-block">
+          <a href="#" aria-label="Homepage">
+            <picture>
+              <source
+                type="image/webp"
+                srcset="data:image/webp;base64,UklGRpgEAABXRUJQVlA4WAoAAAAQAAAATwAATwAAQUxQSLUAAAABgFXbdtzmQhCEB0VMJAYyE5uBw8BlYAgPwoUgCJ7n+9+ImACcttKzTi+vPhTDzXmcPuvpjsjp00xXQjt9vg2nzCeBtBPGSSLtIHAS6WGvnWS2O3kSGjdUQgB5kpoA1zLCJrHWqGkGNb2rYVVTp38vVzWVavyn5q9R05gaw6jFgawlAaASAkBUkjbodHTYDa6CYQ9GDTQcGxW44WzovtcFXMz8FiNuzP6dMeFmK4PXt1X2xXAaAFZQOCC8AwAAMBEAnQEqUABQAD6RQJtKJaOiIaZ2a5iwEgljAMw9wQm2xuX2mgN70c1xV8NF8geoR0qmKFcGcnjqlDbujxBTjbHvyKMxM5opaS/lyzof+2l9qytf+T0yD9MuKfyygnjcYO6Bp4/4/An3fcfebGT+GXKFtSTtZBeBLcoyjCTopnCT1dKUM4ELxq9hV8pai2DQaAAA/vlCQB99F6/zv+mkpcmdfE81ibSQhF7u4q16TUmoHki+U7M2+RHZ0kaqsDvP78cJe7miD2vrc8JTaXIYKWsMed5+CkH9MCYCoYtFwm5Ikt/KpRRetChL7vYRLqUnJEDtqtXR1vxgCMpJ3MfW/UgQqiIynyUDIkUMdF54OGq08ezpfhRdhmtrzS6b1H63uYBCdiN1sj3idGZktizkmOuVUjmGbDjzJd51yUAb/MPXTX6WFP6cWiCfJ3QqVPdgDCHda9CweP2NlWm+uBdU9Q2JRSnIPUh8ImgCpcrwnjnSqr24hGI2sumJ/9Dy5hs83PQOdI1flYKjDbTPpSAwGhN6WghcDi1LoIRcRIiHqbMvO7xmAykmODVAB2Pf+siaDqRctrpSIRPNR4rrS/g8aTZqtNx2FOeh7aRkzLfTIFKOKEldY2TMiPS2HX+/QNQ/hwdrpxFyKTmbm0mSIIwhEykH6a5VHdhJhAi3+6jDlXM2hCs7rYYVNv0SBnFS4cqPH01lFMI2f9Z+F1FwC8QxRYtrRHB23snerAzhXhb2XkiVmK0wTMhX6kP9Z2chz3F1xdUKcQH3/ztdRrRCTpCBYQqfwNIBiTHub1o7Qe5+HmZ678h3rFjws+gdWmEGLhIOEaGj1uiXx+iNrcLyW1vuJph0dOzihKW5aq8K5P1hJujtNAkS2JKTNw6T4uV6F5NdU3xffqiPlOxzqazOOzkl+1Nern5++xOk33gHTb6fnvarIMYbXn2wqrdNqx5kHIF4V9av8zvN66HhEZfx23HHpYyVBjwd2aBU0cTIJhj1+yMN9WQ/F6dlJwf7Ocr9pe6hywzrvGbsfQYUrRKnsXV4wqNkx1VvOVPSX/vKnmmh12dEeWknnDQkTYIpCT69UQy8MG0wTpLavj8IO/rt60C+N9lukL5esIvmyK56i78B5oJ6YAfgBXFSQsC9ZFGZ7i9bPqHdVQSUWM6DCFmV32/N9c1t4xqS9jFiBNLb59EAkoj9KrbaoV45e0/6ElE003WUs6Mpehg9VJHWpctu4VWeITphkz5HXC1JMBFWMluBN+HE6XHpfXMVfUIAAAA= 1x, data:image/webp;base64,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 2x"
+              />
+              <img
+                src="data:image/webp;base64,UklGRpgEAABXRUJQVlA4WAoAAAAQAAAATwAATwAAQUxQSLUAAAABgFXbdtzmQhCEB0VMJAYyE5uBw8BlYAgPwoUgCJ7n+9+ImACcttKzTi+vPhTDzXmcPuvpjsjp00xXQjt9vg2nzCeBtBPGSSLtIHAS6WGvnWS2O3kSGjdUQgB5kpoA1zLCJrHWqGkGNb2rYVVTp38vVzWVavyn5q9R05gaw6jFgawlAaASAkBUkjbodHTYDa6CYQ9GDTQcGxW44WzovtcFXMz8FiNuzP6dMeFmK4PXt1X2xXAaAFZQOCC8AwAAMBEAnQEqUABQAD6RQJtKJaOiIaZ2a5iwEgljAMw9wQm2xuX2mgN70c1xV8NF8geoR0qmKFcGcnjqlDbujxBTjbHvyKMxM5opaS/lyzof+2l9qytf+T0yD9MuKfyygnjcYO6Bp4/4/An3fcfebGT+GXKFtSTtZBeBLcoyjCTopnCT1dKUM4ELxq9hV8pai2DQaAAA/vlCQB99F6/zv+mkpcmdfE81ibSQhF7u4q16TUmoHki+U7M2+RHZ0kaqsDvP78cJe7miD2vrc8JTaXIYKWsMed5+CkH9MCYCoYtFwm5Ikt/KpRRetChL7vYRLqUnJEDtqtXR1vxgCMpJ3MfW/UgQqiIynyUDIkUMdF54OGq08ezpfhRdhmtrzS6b1H63uYBCdiN1sj3idGZktizkmOuVUjmGbDjzJd51yUAb/MPXTX6WFP6cWiCfJ3QqVPdgDCHda9CweP2NlWm+uBdU9Q2JRSnIPUh8ImgCpcrwnjnSqr24hGI2sumJ/9Dy5hs83PQOdI1flYKjDbTPpSAwGhN6WghcDi1LoIRcRIiHqbMvO7xmAykmODVAB2Pf+siaDqRctrpSIRPNR4rrS/g8aTZqtNx2FOeh7aRkzLfTIFKOKEldY2TMiPS2HX+/QNQ/hwdrpxFyKTmbm0mSIIwhEykH6a5VHdhJhAi3+6jDlXM2hCs7rYYVNv0SBnFS4cqPH01lFMI2f9Z+F1FwC8QxRYtrRHB23snerAzhXhb2XkiVmK0wTMhX6kP9Z2chz3F1xdUKcQH3/ztdRrRCTpCBYQqfwNIBiTHub1o7Qe5+HmZ678h3rFjws+gdWmEGLhIOEaGj1uiXx+iNrcLyW1vuJph0dOzihKW5aq8K5P1hJujtNAkS2JKTNw6T4uV6F5NdU3xffqiPlOxzqazOOzkl+1Nern5++xOk33gHTb6fnvarIMYbXn2wqrdNqx5kHIF4V9av8zvN66HhEZfx23HHpYyVBjwd2aBU0cTIJhj1+yMN9WQ/F6dlJwf7Ocr9pe6hywzrvGbsfQYUrRKnsXV4wqNkx1VvOVPSX/vKnmmh12dEeWknnDQkTYIpCT69UQy8MG0wTpLavj8IO/rt60C+N9lukL5esIvmyK56i78B5oJ6YAfgBXFSQsC9ZFGZ7i9bPqHdVQSUWM6DCFmV32/N9c1t4xqS9jFiBNLb59EAkoj9KrbaoV45e0/6ElE003WUs6Mpehg9VJHWpctu4VWeITphkz5HXC1JMBFWMluBN+HE6XHpfXMVfUIAAAA="
+                alt="Jefferson company logo"
+                width="80"
+                loading="lazy"
+              />
+            </picture>
+            <span>jefferson*</span>
+          </a>
+        </div>
+        <nav class="nav-block" role="navigation">
+          <ul class="nav">
+            <li class="nav-item">
+              <a href="#" class="nav-menu" aria-expanded="false" tabindex="0"
+                >Menu</a
+              >
+              <ul class="submenu" id="submenu" hidden>
+                <li><a href="#about-me">About me</a></li>
+                <li><a href="#benefits">Benefits</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#faq">FAQ</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+        <div class="button-item">
+          <a href="#footer" class="header-button">Order the project</a>
+          <button
+            class="burger"
+            aria-label="Open navigation"
+            role="button"
+            tabindex="0"
+          >
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+    <section class="mob-menu">
+  <div class="mobile-box" role="dialog" aria-modal="true" aria-hidden="true">
+    <nav class="block-navigation">
+      <ul class="mob-nav">
+        <li><a href="#about-me">About me</a></li>
+        <li><a href="#benefits">Benefits</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+    </nav>
+    <button class="close" role="button" aria-label="Close mobile menu">
+      <svg width="28" height="28" fill="currentColor">
+        <use href="/js_113_Code-Academy/assets/icons-BXQt0PIq.svg#icon-x"></use>
+      </svg>
+    </button>
+    <a href="#footer" class="header-button" aria-label="Go to footer"
+      >Order the project</a
+    >
+  </div>
+</section>
+
+
+    <main>
+      <!-- Loads the specified .html file -->
+      <section class="hero" id="hero">
+  <div class="container hero-container">
+    <h1 class="hero-title">
+      Hello.
+      <span class="hero-name"> I’m Fullstack developer</span>
+      Lloyd Jefferson.
+    </h1>
+    <div class="list">
+      <ul class="social-list">
+        <li class="social">
+          <a
+            class="link"
+            href="https://www.instagram.com/goitclub/"
+            target="_blank"
+            aria-label="Instagram"
+            >IG</a
+          >
+        </li>
+        <li class="social">
+          <a
+            class="link"
+            href="https://www.facebook.com/goITclub/"
+            target="_blank"
+            aria-label="Facebook"
+            >FB</a
+          >
+        </li>
+        <li class="social">
+          <a
+            class="link"
+            href="https://www.youtube.com/c/GoIT"
+            target="_blank"
+            aria-label="YouTube"
+            >YT</a
+          >
+        </li>
+        <li class="social">
+          <a
+            class="link"
+            href="https://github.com/Halyna79/Code-Academy?tab=readme-ov-file"
+            target="_blank"
+            aria-label="GitHub"
+            >GH</a
+          >
+        </li>
+      </ul>
+
+      <address class="hero_address">
+        <ul class="email_address">
+          <li class="email">
+            <a class="link_email" href="mailto:lloydjefferson@gmail.com"
+              >lloydjefferson@gmail.com</a
+            >
+          </li>
+        </ul>
+      </address>
+    </div>
+  </div>
+</section>
+
+      <section id="about-me" class="about-me">
+  <div class="container about-me-section">
+    <h2 class="about-me-section-title visually-hidden">About me</h2>
+    <div class="about-me-visit-card">
+      <p class="about-me-visit-card-text">
+        I work with people all over the world to create impressive and
+        <span class="about-me-first-span">functional</span>
+        <span class="about-me-second-span">websites</span> that reflect each
+        client's unique personality.
+      </p>
+      <picture>
+        <source
+          srcset="/js_113_Code-Academy/assets/about-me-photo-CaS6Nihy.webp 1x, /js_113_Code-Academy/assets/about-me-photo-2x-DuvuHADr.webp 2x"
+          media="(min-width: 1440px)"
+        />
+        <source
+          srcset="/js_113_Code-Academy/assets/about-me-photo-tab-Bvh0WtoL.webp 1x, /js_113_Code-Academy/assets/about-me-photo-tab-2x-DQ7iCd6R.webp 2x"
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="/js_113_Code-Academy/assets/about-me-photo-mob-sycKp0Ky.webp 1x, /js_113_Code-Academy/assets/about-me-photo-mob-2x-BarDfumf.webp 2x"
+          media="(max-width: 767px)"
+        />
+
+        <img
+          src="/js_113_Code-Academy/assets/about-me-photo-CaS6Nihy.webp"
+          alt="Photo of Lloyd Jefferson"
+          class="about-me-visit-card-photo"
+        />
+      </picture>
+    </div>
+
+    <ul class="about-me-info-list accordion-container">
+      <li class="about-me-info-item ac">
+        <h2 class="ac-header about-me-ac-header">
+          <button type="button" class="ac-trigger about-me-ac-trigger">
+            ABOUT ME
+            <div class="accordion-close-icon">
+              <svg class="accordion-close-icon-svg">
+                <use href="/js_113_Code-Academy/assets/icons-BXQt0PIq.svg#icon-accordion-closesvg"></use>
+              </svg>
+            </div>
+          </button>
+        </h2>
+        <div class="ac-panel about-me-ac-panel">
+          <ul class="ac-text about-me-list">
+            <li class="about-me-item">
+              <p>
+                I am Lloyd Jefferson, a talented programmer with extensive
+                expertise in software development. I have an understanding of
+                different programming languages and technologies, always ready
+                to improve my skills. I always follow the latest trends and look
+                for unconventional, creative solutions to problems. I have a
+                high level of analytical skills and am able to effectively solve
+                even the most difficult tasks encountered on the way.
+              </p>
+            </li>
+            <li class="about-me-item">
+              <p>
+                Able to work both independently and in a team. I can effectively
+                cooperate with colleagues, exchanging ideas and finding optimal
+                solutions. Professional maturity allows you to calmly cope with
+                challenges and stressful situations, while maintaining a high
+                quality of work.I am always looking for opportunities for
+                self-improvement. I actively study new technologies and
+                practices to stay abreast of the latest innovations. I have a
+                strong understanding of various programming languages,
+                frameworks and architectural concepts that allow me to create
+                efficient and scalable software.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </li>
+
+      <li class="about-me-info-item ac">
+        <h2 class="ac-header about-me-ac-header">
+          <button type="button" class="ac-trigger about-me-ac-trigger">
+            ROLE
+            <div class="accordion-close-icon">
+              <svg class="accordion-close-icon-svg">
+                <use href="/js_113_Code-Academy/assets/icons-BXQt0PIq.svg#icon-accordion-closesvg"></use>
+              </svg>
+            </div>
+          </button>
+        </h2>
+        <div class="ac-panel about-me-ac-panel">
+          <ul class="ac-text about-me-list">
+            <li class="about-me-item"><p>Frontend development</p></li>
+            <li class="about-me-item"><p>HeadlessCMS, Wordpress</p></li>
+            <li class="about-me-item"><p>Blender (enjoy)</p></li>
+          </ul>
+        </div>
+      </li>
+
+      <li class="about-me-info-item ac">
+        <h2 class="ac-header about-me-ac-header">
+          <button type="button" class="ac-trigger about-me-ac-trigger">
+            EDUCATION
+            <div class="accordion-close-icon">
+              <svg class="accordion-close-icon-svg">
+                <use href="/js_113_Code-Academy/assets/icons-BXQt0PIq.svg#icon-accordion-closesvg"></use>
+              </svg>
+            </div>
+          </button>
+        </h2>
+        <div class="ac-panel about-me-ac-panel">
+          <ul class="ac-text about-me-list">
+            <li class="about-me-item">
+              <p>
+                2018 - 2019 / Frontend Development Diploma, GoIT IT School, New
+                York
+              </p>
+            </li>
+            <li class="about-me-item">
+              <p>
+                2019 - 2020 / Advanced Web Development Certificate, GoIT IT
+                School, New York
+              </p>
+            </li>
+            <li class="about-me-item">
+              <p>2020 - 2022 / Advanced Blender Animation Techniques, Udemy</p>
+            </li>
+          </ul>
+        </div>
+      </li>
+    </ul>
+
+    <div class="about-me-swiper-container">
+      <div class="swiper about-me-swiper">
+        <ul class="swiper-wrapper about-me-skills-list">
+          <li class="swiper-slide about-me-skill-item"><p>HTML/CSS</p></li>
+          <li class="swiper-slide about-me-skill-item"><p>JavaScript</p></li>
+          <li class="swiper-slide about-me-skill-item"><p>React</p></li>
+          <li class="swiper-slide about-me-skill-item"><p>Node.js</p></li>
+          <li class="swiper-slide about-me-skill-item"><p>React Native</p></li>
+          <li class="swiper-slide about-me-skill-item"><p>Soft skills</p></li>
+        </ul>
+      </div>
+
+      <div class="swiper-button-next about-me-swiper-button" tabindex="0">
+        <svg class="about-me-swiper-btn-svg">
+          <use href="/js_113_Code-Academy/assets/icons-BXQt0PIq.svg#icon-arrow-rightsvg"></use>
+        </svg>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section id="benefits" class="benefits">
+  <div class="container benefits-container">
+    <div class="benefits-title-container">
+      <h2 class="benefits-title">Benefits of working with me</h2>
+    </div>
+    <div class="benefits-content-container">
+      <ul class="benefits-list">
+        <li class="benefits-item">
+          <div class="benefit-icon-box">
+            <svg class="benefit-icon" width="24" height="24">
+              <use href="/js_113_Code-Academy/assets/icons-BXQt0PIq.svg#icon-expertise-iconsvg" />
+            </svg>
+          </div>
+
+          <h3 class="benefit-title">Expertise</h3>
+
+          <p class="benefit-desc">
+            As a highly experienced developer, I have deep knowledge of
+            programming and website development.
+          </p>
+        </li>
+
+        <li class="benefits-item">
+          <div class="benefit-icon-box">
+            <svg class="benefit-icon" width="24" height="24">
+              <use href="/js_113_Code-Academy/assets/icons-BXQt0PIq.svg#icon-communication-iconsvg" />
+            </svg>
+          </div>
+
+          <h3 class="benefit-title">Communication</h3>
+
+          <p class="benefit-desc">
+            Understanding your needs and wants is my priority and I am always
+            open to discussions and corrections.
+          </p>
+        </li>
+
+        <li class="benefits-item">
+          <div class="benefit-icon-box">
+            <svg class="benefit-icon" width="24" height="24">
+              <use href="/js_113_Code-Academy/assets/icons-BXQt0PIq.svg#icon-art-iconsvg" />
+            </svg>
+          </div>
+
+          <h3 class="benefit-title">Art</h3>
+
+          <p class="benefit-desc">
+            Thanks to my creative nature, I am ready to accept challenges and
+            help you bring your ideas to life.
+          </p>
+        </li>
+
+        <li class="benefits-item">
+          <div class="benefit-icon-box">
+            <svg class="benefit-icon" width="24" height="24">
+              <use href="/js_113_Code-Academy/assets/icons-BXQt0PIq.svg#icon-execution-iconsvg" />
+            </svg>
+          </div>
+
+          <h3 class="benefit-title">Urgent execution</h3>
+
+          <p class="benefit-desc">
+            I understand how important time is to you. Ready to work quickly and
+            efficiently, without reducing the quality of work.
+          </p>
+        </li>
+      </ul>
+
+      <a class="benefits-cta" href="#footer">Order the project</a>
+    </div>
+  </div>
+</section>
+
+      <section id="projects" class="projects">
+  <div class="container">
+    <h2 class="projects-title">Projects</h2>
+
+    <div class="swiper projects-swiper">
+      <ul class="swiper-wrapper projects-list">
+        <li class="swiper-slide project">
+          <div class="project-left">
+            <ul class="project-tags">
+              <li class="project-tag">#react</li>
+              <li class="project-tag">#js</li>
+              <li class="project-tag">#node js</li>
+              <li class="project-tag">#git</li>
+            </ul>
+            <h3 class="project-title">
+              Programming Across Borders: Ideas, Technologies, Innovations
+            </h3>
+            <a
+              href="https://github.com/Halyna79/Code-Academy"
+              class="project-link"
+              target="_blank"
+              >See project</a
+            >
+          </div>
+
+          <div class="project-right">
+            <picture class="project-picture">
+              <source srcset="/js_113_Code-Academy/assets/book-app-project-DvbIqZaE.webp 1x, /js_113_Code-Academy/assets/book-app-project-2x-DCIwn2nX.webp 2x" 
+                media="(min-width: 1440px)">
+              <source srcset="/js_113_Code-Academy/assets/book-app-project-DvbIqZaE.webp 1x, /js_113_Code-Academy/assets/book-app-project-2x-DCIwn2nX.webp 2x" 
+                media="(min-width: 768px)">
+              <source srcset="/js_113_Code-Academy/assets/book-app-project-mob-Bmo0zZht.webp 1x, /js_113_Code-Academy/assets/book-app-project-mob-2x-B_rhiPrJ.webp 2x" 
+                media="(max-width: 767px)">
+              <img
+                class="project-image"
+                src="/js_113_Code-Academy/assets/book-app-project-DvbIqZaE.webp"
+                alt="Read Journey - reading books app"
+                loading="lazy"
+              />
+            </picture>
+          </div>
+        </li>
+
+        <li class="swiper-slide project">
+          <div class="project-left">
+            <ul class="project-tags">
+              <li class="project-tag">#react</li>
+              <li class="project-tag">#js</li>
+              <li class="project-tag">#node js</li>
+              <li class="project-tag">#git</li>
+            </ul>
+            <h3 class="project-title">
+              Programming Across Borders: Ideas, Technologies, Innovations
+            </h3>
+            <a
+              href="https://github.com/Halyna79/Code-Academy"
+              class="project-link"
+              target="_blank"
+              >See project</a
+            >
+          </div>
+
+          <div class="project-right">
+            <picture class="project-picture">
+              <source srcset="/js_113_Code-Academy/assets/petlove-app-mGYPUr9r.webp 1x, /js_113_Code-Academy/assets/petlove-app-2x-mNb6ejhH.webp 2x" 
+                media="(min-width: 1440px)">
+              <source srcset="/js_113_Code-Academy/assets/petlove-app-mGYPUr9r.webp 1x, /js_113_Code-Academy/assets/petlove-app-2x-mNb6ejhH.webp 2x" 
+                media="(min-width: 768px)">
+              <source srcset="/js_113_Code-Academy/assets/petlove-app-mob-BXWry1hK.webp 1x, /js_113_Code-Academy/assets/petlove-app-mob-2x-DufMDvYo.webp 2x" 
+                media="(max-width: 767px)">
+              <img
+                class="project-image"
+                src="/js_113_Code-Academy/assets/petlove-app-mGYPUr9r.webp"
+                alt="Pet Love - blog about pets"
+                loading="lazy"
+              />
+            </picture>
+          </div>
+        </li>
+
+        <li class="swiper-slide project">
+          <div class="project-left">
+            <ul class="project-tags">
+              <li class="project-tag">#react</li>
+              <li class="project-tag">#js</li>
+              <li class="project-tag">#node js</li>
+              <li class="project-tag">#git</li>
+            </ul>
+            <h3 class="project-title">
+              Programming Across Borders: Ideas, Technologies, Innovations
+            </h3>
+            <a
+              href="https://github.com/Halyna79/Code-Academy"
+              class="project-link"
+              target="_blank"
+              >See project</a
+            >
+          </div>
+
+          <div class="project-right">
+            <picture class="project-picture">
+              <source srcset="/js_113_Code-Academy/assets/registration-form-BkDLUSml.webp 1x, /js_113_Code-Academy/assets/registration-form-2x-fCI6ShMh.webp 2x" 
+                media="(min-width: 1440px)">
+              <source srcset="/js_113_Code-Academy/assets/registration-form-BkDLUSml.webp 1x, /js_113_Code-Academy/assets/registration-form-2x-fCI6ShMh.webp 2x"
+                media="(min-width: 768px)">
+              <source srcset="data:image/webp;base64,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 1x, /js_113_Code-Academy/assets/registration-form-mob-2x-D5w-X9kI.webp 2x"
+                media="(max-width: 767px)">
+              <img
+                class="project-image"
+                src="../img/projects/registration-form.webp"
+                alt="VocabBuilder - app to learn English"
+                loading="lazy"
+              />
+            </picture>
+          </div>
+        </li>
+      </ul>
+
+      <div class="projects-buttons">
+        <button class="projects-button projects-swiper-prev" type="button" tabindex="0">
+          <svg class="projects-button-icon">
+            <use href="/js_113_Code-Academy/assets/icons-BXQt0PIq.svg#icon-arrow-leftsvg" />
+          </svg>
+        </button>
+        <button class="projects-button projects-swiper-next" type="button" tabindex="0">
+          <svg class="projects-button-icon">
+            <use href="/js_113_Code-Academy/assets/icons-BXQt0PIq.svg#icon-arrow-rightsvg" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section id="faq" class="faq">
+  <div class="container">
+    <h2 class="qestion-as-asked">FAQ</h2>
+    <ul class="list-qestions">
+      <li class="list-qestion-item">
+        <div class="topic-button">
+          <h3 class="topik-qestion">
+            What programming languages are most often used in your project?
+          </h3>
+          <button class="button-accordion" type="button">
+            <svg class="icon-accordion-close">
+              <use href="/js_113_Code-Academy/assets/icons-BXQt0PIq.svg#icon-accordion-closesvg"></use>
+            </svg>
+          </button>
+        </div>
+        <p class="questions">
+          In the field of web development, there are various technologies and
+          programming languages. Typically, this includes a combination of
+          frontend (client side) and backend (server side) languages.
+        </p>
+      </li>
+      <li class="list-qestion-item">
+        <div class="topic-button">
+          <h3 class="topik-qestion">What are the deadlines for the project?</h3>
+          <button class="button-accordion" type="button">
+            <svg class="icon-accordion-close">
+              <use href="/js_113_Code-Academy/assets/icons-BXQt0PIq.svg#icon-accordion-closesvg"></use>
+            </svg>
+          </button>
+        </div>
+        <p class="questions">
+          The terms of project implementation depend to a large extent on a
+          number of factors, such as the scope of the project, its complexity,
+          and the availability of resources. Determining exact deadlines is a
+          difficult task, and it usually occurs during the planning phase of the
+          project.
+        </p>
+      </li>
+      <li class="list-qestion-item">
+        <div class="topic-button">
+          <h3 class="topik-qestion">What payment methods do you accept?</h3>
+          <button class="button-accordion" type="button">
+            <svg class="icon-accordion-close">
+              <use href="/js_113_Code-Academy/assets/icons-BXQt0PIq.svg#icon-accordion-closesvg"></use>
+            </svg>
+          </button>
+        </div>
+        <p class="questions">
+          Payment through credit and debit cards such as Visa, MasterCard,
+          specialized electronic payment systems such as PayPal, as well as
+          payments in cryptocurrencies such as Bitcoin, Ethereum and others.
+        </p>
+      </li>
+      <li class="list-qestion-item">
+        <div class="topic-button">
+          <h3 class="topik-qestion">How can I contact you?</h3>
+          <button class="button-accordion" type="button">
+            <svg class="icon-accordion-close">
+              <use href="/js_113_Code-Academy/assets/icons-BXQt0PIq.svg#icon-accordion-closesvg"></use>
+            </svg>
+          </button>
+        </div>
+        <p class="questions">
+          In the field of web development, there are various technologies and
+          programming languages. Typically, this includes a combination of
+          frontend (client side) and backend (server side) languages.
+        </p>
+      </li>
+      <li class="list-qestion-item">
+        <div class="topic-button">
+          <h3 class="topik-qestion">Do you provide advice or support?</h3>
+          <button class="button-accordion" type="button">
+            <svg class="icon-accordion-close">
+              <use href="/js_113_Code-Academy/assets/icons-BXQt0PIq.svg#icon-accordion-closesvg"></use>
+            </svg>
+          </button>
+        </div>
+        <p class="questions">
+          The terms of project implementation depend to a large extent on a
+          number of factors, such as the scope of the project, its complexity,
+          and the availability of resources. Determining exact deadlines is a
+          difficult task, and it usually occurs during the planning phase of the
+          project.
+        </p>
+      </li>
+      <li class="list-qestion-item">
+        <div class="topic-button">
+          <h3 class="topik-qestion">
+            What does the process of developing a software product look like
+            from idea to implementation?
+          </h3>
+          <button class="button-accordion" type="button">
+            <svg class="icon-accordion-close">
+              <use href="/js_113_Code-Academy/assets/icons-BXQt0PIq.svg#icon-accordion-closesvg"></use>
+            </svg>
+          </button>
+        </div>
+        <p class="questions">
+          Payment through credit and debit cards such as Visa, MasterCard,
+          specialized electronic payment systems such as PayPal, as well as
+          payments in cryptocurrencies such as Bitcoin, Ethereum and others.
+        </p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+      <section class="covers">
+  <div class="container covers-container">
+    <h2 class="visually-hidden">covers</h2>
+
+    <div class="covers-box">
+      <div class="covers-list">
+        <ul class="covers-items">`
+          <li class="covers-inner-list">
+            <picture class="covers-img-box">
+              <source
+                srcset="/js_113_Code-Academy/assets/beauty-brand-nature-CUh4Kj7y.webp 1x, /js_113_Code-Academy/assets/beauty-brand-nature-2x-DPfwJHYw.webp 2x"
+                media="(min-width: 1440px)"
+              />
+              <source
+                srcset="/js_113_Code-Academy/assets/beauty-brand-nature-tab-pnsI1ff9.webp 1x, /js_113_Code-Academy/assets/beauty-brand-nature-tab-2x-AQMAImhv.webp 2x"
+                media="(min-width: 768px)"
+              />
+              <source
+                srcset="/js_113_Code-Academy/assets/beauty-brand-nature-mob-BmNC5-ZM.webp 1x, /js_113_Code-Academy/assets/beauty-brand-nature-mob-2x-BUjE6MQf.webp 2x"
+                media="(max-width: 767px)"
+              />
+              <img
+                class="covers-items-img"
+                src="/js_113_Code-Academy/assets/beauty-brand-nature-CUh4Kj7y.webp"
+                alt="beauty-brand-nature"
+              />
+            </picture>
+          </li>
+          <li class="covers-inner-list">
+            <picture class="covers-img-box">
+              <source
+                srcset="/js_113_Code-Academy/assets/learn-english-onlain-sqPUwgg8.webp 1x, /js_113_Code-Academy/assets/learn-english-onlain-2x-CxbSZWoI.webp 2x"
+                media="(min-width: 1440px)"
+              />
+              <source
+                srcset="/js_113_Code-Academy/assets/learn-english-onlain-tab-BhZwb2EI.webp 1x, /js_113_Code-Academy/assets/learn-english-onlain-tab-2x-C90jQJNk.webp 2x"
+                media="(min-width: 768px)"
+              />
+              <source
+                srcset="/js_113_Code-Academy/assets/learn-english-onlain-mob-Vn5uZP7X.webp 1x, /js_113_Code-Academy/assets/learn-english-onlain-mob-2x-DwinZWuu.webp 2x"
+                media="(max-width: 767px)"
+              />
+              <img
+                class="covers-items-img"
+                src="/js_113_Code-Academy/assets/learn-english-onlain-sqPUwgg8.webp"
+                alt="learn-english-onlain"
+              />
+            </picture>
+          </li>
+          <li class="covers-inner-list">
+            <picture class="covers-img-box">
+              <source
+                srcset="/js_113_Code-Academy/assets/beauty-brand-nature-CUh4Kj7y.webp 1x, /js_113_Code-Academy/assets/beauty-brand-nature-2x-DPfwJHYw.webp 2x"
+                media="(min-width: 1440px)"
+              />
+              <source
+                srcset="/js_113_Code-Academy/assets/beauty-brand-nature-tab-pnsI1ff9.webp 1x, /js_113_Code-Academy/assets/beauty-brand-nature-tab-2x-AQMAImhv.webp 2x"
+                media="(min-width: 768px)"
+              />
+              <source
+                srcset="/js_113_Code-Academy/assets/beauty-brand-nature-mob-BmNC5-ZM.webp 1x, /js_113_Code-Academy/assets/beauty-brand-nature-mob-2x-BUjE6MQf.webp 2x"
+                media="(max-width: 767px)"
+              />
+              <img
+                class="covers-items-img"
+                src="/js_113_Code-Academy/assets/beauty-brand-nature-CUh4Kj7y.webp"
+                alt="beauty-brand-nature"
+              />
+            </picture>
+          </li>
+        </ul>
+        <ul class="covers-items">
+          <li class="covers-inner-list">
+            <picture class="covers-img-box">
+              <source
+                srcset="/js_113_Code-Academy/assets/power-pulse-fitness-Cgjw-Fym.webp 1x, /js_113_Code-Academy/assets/power-pulse-fitness-2x-Dvs1f8W1.webp 2x"
+                media="(min-width: 1440px)"
+              />
+              <source
+                srcset="/js_113_Code-Academy/assets/power-pulse-fitness-tab-EnlZVb-M.webp 1x, /js_113_Code-Academy/assets/power-pulse-fitness-tab-2x-xFW-K8_-.webp 2x"
+                media="(min-width: 768px)"
+              />
+              <source
+                srcset="/js_113_Code-Academy/assets/power-pulse-fitness-mob-D-FZ6KcU.webp 1x, /js_113_Code-Academy/assets/power-pulse-fitness-mob-2x-CNkcO5rc.webp 2x"
+                media="(max-width: 767px)"
+              />
+              <img
+                class="covers-items-img"
+                src="/js_113_Code-Academy/assets/power-pulse-fitness-Cgjw-Fym.webp"
+                alt="power-pulse-fitness"
+              />
+            </picture>
+          </li>
+          <li class="covers-inner-list">
+            <picture class="covers-img-box">
+              <source
+                srcset="/js_113_Code-Academy/assets/mimino-architecture-DmHqphoT.webp 1x, /js_113_Code-Academy/assets/mimino-architecture-2x-DiNxo9wC.webp 2x"
+                media="(min-width: 1440px)"
+              />
+              <source
+                srcset="/js_113_Code-Academy/assets/mimino-architecture-tab-CmfNMA8X.webp 1x, /js_113_Code-Academy/assets/mimino-architecture-tab-2x-UHo8C5zU.webp 2x"
+                media="(min-width: 768px)"
+              />
+              <source
+                srcset="/js_113_Code-Academy/assets/mimino-architecture-mob-yAikx5O1.webp 1x, /js_113_Code-Academy/assets/mimino-architecture-mob-2x-BVL5FTj3.webp"
+                media="(max-width: 767px)"
+              />
+              <img
+                class="covers-items-img"
+                src="/js_113_Code-Academy/assets/mimino-architecture-DmHqphoT.webp"
+                alt="mimino-architecture"
+              />
+            </picture>
+          </li>
+          <li class="covers-inner-list">
+            <picture class="covers-img-box">
+              <source
+                srcset="/js_113_Code-Academy/assets/learn-english-onlain-sqPUwgg8.webp 1x, /js_113_Code-Academy/assets/learn-english-onlain-2x-CxbSZWoI.webp 2x"
+                media="(min-width: 1440px)"
+              />
+              <source
+                srcset="/js_113_Code-Academy/assets/learn-english-onlain-tab-BhZwb2EI.webp 1x, /js_113_Code-Academy/assets/learn-english-onlain-tab-2x-C90jQJNk.webp 2x"
+                media="(min-width: 768px)"
+              />
+              <source
+                srcset="/js_113_Code-Academy/assets/learn-english-onlain-mob-Vn5uZP7X.webp 1x, /js_113_Code-Academy/assets/learn-english-onlain-mob-2x-DwinZWuu.webp 2x"
+                media="(max-width: 767px)"
+              />
+              <img
+                class="covers-items-img"
+                src="/js_113_Code-Academy/assets/learn-english-onlain-sqPUwgg8.webp"
+                alt="learn-english-onlain"
+              />
+            </picture>
+          </li>
+          <li class="covers-inner-list">
+            <picture class="covers-img-box">
+              <source
+                srcset="/js_113_Code-Academy/assets/beauty-brand-nature-CUh4Kj7y.webp 1x, /js_113_Code-Academy/assets/beauty-brand-nature-2x-DPfwJHYw.webp 2x"
+                media="(min-width: 1440px)"
+              />
+              <source
+                srcset="/js_113_Code-Academy/assets/beauty-brand-nature-tab-pnsI1ff9.webp 1x, /js_113_Code-Academy/assets/beauty-brand-nature-tab-2x-AQMAImhv.webp 2x"
+                media="(min-width: 768px)"
+              />
+              <source
+                srcset="/js_113_Code-Academy/assets/beauty-brand-nature-mob-BmNC5-ZM.webp 1x, /js_113_Code-Academy/assets/beauty-brand-nature-tab-2x-AQMAImhv.webp 2x"
+                media="(max-width: 767px)"
+              />
+              <img
+                class="covers-items-img"
+                src="/js_113_Code-Academy/assets/beauty-brand-nature-CUh4Kj7y.webp"
+                alt="beauty-brand-nature"
+              />
+            </picture>
+          </li>
+        </ul>
+        <ul class="covers-items">
+          <li class="covers-inner-list">
+            <picture class="covers-img-box">
+              <source
+                srcset="/js_113_Code-Academy/assets/finance-management-DVbpLRrC.webp 1x, /js_113_Code-Academy/assets/finance-management-2x-DhtYKS_M.webp 2x"
+                media="(min-width: 1440px)"
+              />
+              <source
+                srcset="/js_113_Code-Academy/assets/finance-management-tab-DgnDalXl.webp 1x, /js_113_Code-Academy/assets/finance-management-tab-2x-mHULZyy5.webp 2x"
+                media="(min-width: 768px)"
+              />
+              <source
+                srcset="/js_113_Code-Academy/assets/finance-management-mob-cbbDzptM.webp 1x, /js_113_Code-Academy/assets/finance-management-mob-2x-BnuuX9S4.webp 2x"
+                media="(max-width: 767px)"
+              />
+              <img
+                class="covers-items-img"
+                src="/js_113_Code-Academy/assets/finance-management-DVbpLRrC.webp"
+                alt="finance-management"
+              />
+            </picture>
+          </li>
+
+          <li class="covers-inner-list">
+            <picture class="covers-img-box">
+              <source
+                srcset="/js_113_Code-Academy/assets/business-onlaine-leader-B8TC83fH.webp 1x, /js_113_Code-Academy/assets/business-onlaine-leader-2x-Be4az5T7.webp 2x"
+                media="(min-width: 1440px)"
+              />
+              <source
+                srcset="/js_113_Code-Academy/assets/business-onlaine-leader-tab-DHPB00HM.webp 1x, /js_113_Code-Academy/assets/business-onlaine-leader-tab-2x-DrqxbNUb.webp 2x"
+                media="(min-width: 768px)"
+              />
+              <source
+                srcset="/js_113_Code-Academy/assets/business-onlaine-leader-mob-BHqDvaAk.webp 1x, /js_113_Code-Academy/assets/business-onlaine-leader-mob-2x-uU8sHlER.webp 2x"
+                media="(max-width: 767px)"
+              />
+              <img
+                class="covers-items-img"
+                src="/js_113_Code-Academy/assets/business-onlaine-leader-B8TC83fH.webp"
+                alt="business-onlaine-leader"
+              />
+            </picture>
+          </li>
+
+          <li class="covers-inner-list">
+            <picture class="covers-img-box">
+              <source
+                srcset="/js_113_Code-Academy/assets/ukrainian-art-crafts-BNNr5ERX.webp 1x, /js_113_Code-Academy/assets/ukrainian-art-crafts-2x-mBYJS81d.webp 2x"
+                media="(min-width: 1440px)"
+              />
+              <source
+                srcset="/js_113_Code-Academy/assets/ukrainian-art-crafts-tab-DP_3FdQp.webp 1x, /js_113_Code-Academy/assets/ukrainian-art-crafts-tab-2x-h9CzGbIs.webp 2x"
+                media="(min-width: 768px)"
+              />
+              <source
+                srcset="/js_113_Code-Academy/assets/ukrainian-art-crafts-mob-QtBDLjm3.webp 1x, /js_113_Code-Academy/assets/ukrainian-art-crafts-mob-2x-BH9tkadS.webp 2x"
+                media="(max-width: 767px)"
+              />
+              <img
+                class="covers-items-img"
+                src="/js_113_Code-Academy/assets/ukrainian-art-crafts-BNNr5ERX.webp"
+                alt="ukrainian-art-crafts"
+              />
+            </picture>
+          </li>
+
+          <li class="covers-inner-list">
+            <picture class="covers-img-box">
+              <source
+                srcset="/js_113_Code-Academy/assets/organic-food-market-Cr38tPL5.webp 1x, /js_113_Code-Academy/assets/organic-food-market-2x-D_2sKseg.webp 2x"
+                media="(min-width: 1440px)"
+              />
+              <source
+                srcset="/js_113_Code-Academy/assets/organic-food-market-tab--95nZcIk.webp 1x, /js_113_Code-Academy/assets/organic-food-market-tab-2x-C2Vr4w09.webp 2x"
+                media="(min-width: 768px)"
+              />
+              <source
+                srcset="/js_113_Code-Academy/assets/organic-food-market-mob-BHpbKGzk.webp 1x, /js_113_Code-Academy/assets/organic-food-market-mob-2x-Dg-C0gNY.webp 2x"
+                media="(max-width: 767px)"
+              />
+              <img
+                class="covers-items-img"
+                src="/js_113_Code-Academy/assets/organic-food-market-Cr38tPL5.webp"
+                alt="organic-food-market"
+              />
+            </picture>
+          </li>
+
+          <li class="covers-inner-list">
+            <picture class="covers-img-box">
+              <source
+                srcset="/js_113_Code-Academy/assets/mimino-architecture-DmHqphoT.webp 1x, /js_113_Code-Academy/assets/mimino-architecture-2x-DiNxo9wC.webp 2x"
+                media="(min-width: 1440px)"
+              />
+              <source
+                srcset="/js_113_Code-Academy/assets/mimino-architecture-tab-CmfNMA8X.webp 1x, /js_113_Code-Academy/assets/mimino-architecture-tab-2x-UHo8C5zU.webp 2x"
+                media="(min-width: 768px)"
+              />
+              <source
+                srcset="/js_113_Code-Academy/assets/mimino-architecture-mob-yAikx5O1.webp 1x, /js_113_Code-Academy/assets/mimino-architecture-mob-2x-BVL5FTj3.webp"
+                media="(max-width: 767px)"
+              />
+              <img
+                class="covers-items-img"
+                src="/js_113_Code-Academy/assets/mimino-architecture-DmHqphoT.webp"
+                alt="mimino-architecture"
+              />
+            </picture>
+          </li>
+        </ul>
+        <ul class="covers-items">
+          <li class="covers-inner-list">
+            <picture class="covers-img-box">
+              <source
+                srcset="/js_113_Code-Academy/assets/organic-food-market-Cr38tPL5.webp 1x, /js_113_Code-Academy/assets/organic-food-market-2x-D_2sKseg.webp 2x"
+                media="(min-width: 1440px)"
+              />
+
+              <source
+                srcset="/js_113_Code-Academy/assets/organic-food-market-tab--95nZcIk.webp 1x, /js_113_Code-Academy/assets/organic-food-market-tab-2x-C2Vr4w09.webp 2x"
+                media="(min-width: 768px)"
+              />
+
+              <source
+                srcset="/js_113_Code-Academy/assets/organic-food-market-mob-BHpbKGzk.webp 1x, /js_113_Code-Academy/assets/organic-food-market-mob-2x-Dg-C0gNY.webp 2x"
+                media="(max-width: 767px)"
+              />
+              <img
+                class="covers-items-img"
+                src="/js_113_Code-Academy/assets/organic-food-market-Cr38tPL5.webp"
+                alt="organic-food-market"
+              />
+            </picture>
+          </li>
+
+          <li class="covers-inner-list">
+            <picture class="covers-img-box">
+              <source
+                srcset="/js_113_Code-Academy/assets/energyflow-fitness-Ca5vbDuv.webp 1x, /js_113_Code-Academy/assets/energyflow-fitness-2x-BHlbrNx2.webp 2x"
+                media="(min-width: 1440px)"
+              />
+
+              <source
+                srcset="/js_113_Code-Academy/assets/energyflow-fitnesstab-tab-EXJDcMNV.webp 1x, /js_113_Code-Academy/assets/energyflow-fitness-2x-BHlbrNx2.webp 2x"
+                media="(min-width: 768px)"
+              />
+
+              <source
+                srcset="/js_113_Code-Academy/assets/energyflow-fitness-mob-Dh5pWQtl.webp 1x, /js_113_Code-Academy/assets/energyflow-fitness-mob-2x-pt3MwTau.webp 2x"
+                media="(max-width: 767px)"
+              />
+              <img
+                class="covers-items-img"
+                src="/js_113_Code-Academy/assets/energyflow-fitness-Ca5vbDuv.webp"
+                alt="energyflow-fitness"
+              />
+            </picture>
+          </li>
+
+          <li class="covers-inner-list">
+            <picture class="covers-img-box">
+              <source
+                srcset="/js_113_Code-Academy/assets/power-pulse-fitness-Cgjw-Fym.webp 1x, /js_113_Code-Academy/assets/power-pulse-fitness-2x-Dvs1f8W1.webp 2x"
+                media="(min-width: 1440px)"
+              />
+
+              <source
+                srcset="/js_113_Code-Academy/assets/power-pulse-fitness-tab-EnlZVb-M.webp 1x, /js_113_Code-Academy/assets/power-pulse-fitness-tab-2x-xFW-K8_-.webp 2x"
+                media="(min-width: 768px)"
+              />
+
+              <source
+                srcset="/js_113_Code-Academy/assets/power-pulse-fitness-mob-D-FZ6KcU.webp 1x, /js_113_Code-Academy/assets/power-pulse-fitness-mob-2x-CNkcO5rc.webp 2x"
+                media="(max-width: 767px)"
+              />
+              <img
+                class="covers-items-img"
+                src="/js_113_Code-Academy/assets/power-pulse-fitness-Cgjw-Fym.webp"
+                alt="power-pulse-fitness"
+              />
+            </picture>
+          </li>
+
+          <li class="covers-inner-list">
+            <picture class="covers-img-box">
+              <source
+                srcset="/js_113_Code-Academy/assets/finance-management-DVbpLRrC.webp 1x, /js_113_Code-Academy/assets/finance-management-2x-DhtYKS_M.webp 2x"
+                media="(min-width: 1440px)"
+              />
+
+              <source
+                srcset="/js_113_Code-Academy/assets/finance-management-tab-DgnDalXl.webp 1x, /js_113_Code-Academy/assets/finance-management-tab-2x-mHULZyy5.webp 2x"
+                media="(min-width: 768px)"
+              />
+
+              <source
+                srcset="/js_113_Code-Academy/assets/finance-management-mob-cbbDzptM.webp 1x, /js_113_Code-Academy/assets/finance-management-mob-2x-BnuuX9S4.webp 2x"
+                media="(max-width: 767px)"
+              />
+              <img
+                class="covers-items-img"
+                src="/js_113_Code-Academy/assets/finance-management-DVbpLRrC.webp"
+                alt="finance-management"
+              />
+            </picture>
+          </li>
+
+          <li class="covers-inner-list">
+            <picture class="covers-img-box">
+              <source
+                srcset="/js_113_Code-Academy/assets/fresh-harvest-fruits-CNSTyLHR.webp 1x, /js_113_Code-Academy/assets/fresh-harvest-fruits-2x-DeLeqzcz.webp 2x"
+                media="(min-width: 1440px)"
+              />
+
+              <source
+                srcset="/js_113_Code-Academy/assets/fresh-harvest-fruits-tab-CY1AlWPl.webp 1x, /js_113_Code-Academy/assets/fresh-harvest-fruits-tab-2x-GWsofSJW.webp 2x"
+                media="(min-width: 768px)"
+              />
+
+              <source
+                srcset="/js_113_Code-Academy/assets/fresh-harvest-fruits-mob-Bi4VkeQW.webp 1x, /js_113_Code-Academy/assets/fresh-harvest-fruits-mob-2x-BLJzXYab.webp 2x"
+                media="(max-width: 767px)"
+              />
+              <img
+                class="covers-items-img"
+                src="/js_113_Code-Academy/assets/fresh-harvest-fruits-CNSTyLHR.webp"
+                alt="fresh-harvest-fruits"
+              />
+            </picture>
+          </li>
+        </ul>
+        <ul class="covers-items">
+          <li class="covers-inner-list">
+            <picture class="covers-img-box">
+              <source
+                srcset="/js_113_Code-Academy/assets/learn-english-onlain-sqPUwgg8.webp 1x, /js_113_Code-Academy/assets/learn-english-onlain-2x-CxbSZWoI.webp 2x"
+                media="(min-width: 1440px)"
+              />
+              <source
+                srcset="/js_113_Code-Academy/assets/learn-english-onlain-tab-BhZwb2EI.webp 1x, /js_113_Code-Academy/assets/learn-english-onlain-tab-2x-C90jQJNk.webp 2x"
+                media="(min-width: 768px)"
+              />
+              <source
+                srcset="/js_113_Code-Academy/assets/learn-english-onlain-mob-Vn5uZP7X.webp 1x, /js_113_Code-Academy/assets/learn-english-onlain-mob-2x-DwinZWuu.webp 2x"
+                media="(max-width: 767px)"
+              />
+              <img
+                class="covers-items-img"
+                src="/js_113_Code-Academy/assets/learn-english-onlain-sqPUwgg8.webp"
+                alt="learn-english-onlain"
+              />
+            </picture>
+          </li>
+          <li class="covers-inner-list">
+            <picture class="covers-img-box">
+              <source
+                srcset="/js_113_Code-Academy/assets/beauty-brand-nature-CUh4Kj7y.webp 1x, /js_113_Code-Academy/assets/beauty-brand-nature-2x-DPfwJHYw.webp 2x"
+                media="(min-width: 1440px)"
+              />
+              <source
+                srcset="/js_113_Code-Academy/assets/beauty-brand-nature-tab-pnsI1ff9.webp 1x, /js_113_Code-Academy/assets/beauty-brand-nature-tab-2x-AQMAImhv.webp 2x"
+                media="(min-width: 768px)"
+              />
+              <source
+                srcset="/js_113_Code-Academy/assets/beauty-brand-nature-mob-BmNC5-ZM.webp 1x, /js_113_Code-Academy/assets/beauty-brand-nature-mob-2x-BUjE6MQf.webp 2x"
+                media="(max-width: 767px)"
+              />
+              <img
+                class="covers-items-img"
+                src="/js_113_Code-Academy/assets/beauty-brand-nature-CUh4Kj7y.webp"
+                alt="beauty-brand-nature"
+              />
+            </picture>
+          </li>
+          <li class="covers-inner-list">
+            <picture class="covers-img-box">
+              <source
+                srcset="/js_113_Code-Academy/assets/mimino-architecture-DmHqphoT.webp 1x, /js_113_Code-Academy/assets/mimino-architecture-2x-DiNxo9wC.webp 2x"
+                media="(min-width: 1440px)"
+              />
+              <source
+                srcset="/js_113_Code-Academy/assets/mimino-architecture-tab-CmfNMA8X.webp 1x, /js_113_Code-Academy/assets/mimino-architecture-tab-2x-UHo8C5zU.webp 2x"
+                media="(min-width: 768px)"
+              />
+              <source
+                srcset="/js_113_Code-Academy/assets/mimino-architecture-mob-yAikx5O1.webp 1x, /js_113_Code-Academy/assets/mimino-architecture-mob-2x-BVL5FTj3.webp"
+                media="(max-width: 767px)"
+              />
+              <img
+                class="covers-items-img"
+                src="/js_113_Code-Academy/assets/mimino-architecture-DmHqphoT.webp"
+                alt="mimino-architecture"
+              />
+            </picture>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="reviews">
+    <div class="container">
+        <h2 class="reviews-title">REVIEWS</h2>
+        <div class="reviews-container">
+            <div class="swiper reviews-can-see">
+                <ul class="swiper-wrapper reviews-list"></ul>
+            </div>
+            <p class="reviews-error hidden">Not found</p>
+            <div class="reviews-buttons-center">
+                <div class="reviews-buttons-container">
+                    <button class="swiper-button-prev reviews-button reviews-button-prev" tabindex="0" >
+                        <svg stroke="currentColor" fill="none">
+                            <use href="/js_113_Code-Academy/assets/icons-BXQt0PIq.svg#icon-arrow-leftsvg"></use>
+                        </svg>
+                    </button>
+                    <button class="swiper-button-next reviews-button reviews-button-next" tabindex="0">
+                        <svg stroke="currentColor" fill="none">
+                            <use href="/js_113_Code-Academy/assets/icons-BXQt0PIq.svg#icon-arrow-rightsvg"></use>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    </main>
+
+    <footer class="footer" id="footer">
+  <div class="container">  
+  <div class="footer-bg">
+    <div class="footer-first-group">
+    <picture class="footer-img">
+      <source
+        srcset="data:image/webp;base64,UklGRloEAABXRUJQVlA4WAoAAAAQAAAARQAARQAAQUxQSOYAAAABgFZrb97mhSAIghQGNhMLghm0DDIGhmAIhiAI6rftSH93TkRMAOYp13OorR+tJsZuKs0u2RPvoKJ23RsvK2rXLmu42+UHL0hqDvWYKua0TBRzW346zHH6gdWT8rdhrvuXYs7lA5t3pbe7OxMAbP6VgByACdAjaGALkXIMucZQWwx/I4ZhMWoQ/0pqECOGccbQagw1x5AoBkaLoAMSQQJIA2AA4u8GAKTu+A3iTfC5+xr4yupJ+RuypwO/ih/B7+JFMHuoB82Y53G9zlgqF1PBar5fSIWwkXO/RhPCbs61jQ06zpoJ81ZQOCBOAwAAcBAAnQEqRgBGAD6RPphIpaOiISpWDSiwEgllANBbbw5aY/u3iBl6tIaN42fqX2B+kb6LiRAIyn6POTcQ6bS7rzGLXw2CJdu9anyHyL7OpozuURjlq1AJvPWnV+43keIKPJGR0kJojEBRVR9+xpnCBvJztxsqEzOD1Wo3zWbeSeK3YUdy5z/mBCjR9IAA/vg38yBdKqyNvFBuegENb6nXPooNrk4tsw46fE41QdzmFwcSWyWO172AzZYTl0n1uh2PPOBvP67bZCWn6S+32dVTRXPN/Oqdw6NPRg1CubccavHaaIrZfVPui+DCiZwxFEMwKwmCg0IuGGPDT/C04GGEgKujXnLQf/zBUSg00WV/syXKvFkdmv05r33vI3P4vn//6Jh2zDsKmFZba+0EFlkV/4lUGU5AGWCpnWXeN91xX7mNNZLvFdUlBoqGI0FT2GhyTDqr1G9Q/jlVB0Q81Wi8WXrAr55kM2WpMRkfHgZW+ZUtb5c5DvawFtH234h0rZ9aIGJKp2zlDu+EphR2bZ8j/fPu6AW/QrLRMa1MYmAWDgzgfzP6IrdaTuYKfBOF9tmgm1YREYI0bvM6HQ2UvaSqsPBy12VflSjtjoYvmD7qI6O5mFH6eywpjxw7ader0ZBfmQZZcSebR+RXJdUR/A+Gj43Hm0W/bEmcVl+XHfnuPBZp7lCgWimC8bIB+QikE7Tw3kEzgX6PVbcL3Fz4M+u/oOpc64ZKJVJrdlCbiG9nDRN69c9KqmNKNcphw24n1tU0oSq5+PlKndHwaZ71Jrsv8bZzfi5vgQW75nYtNQgKlVPSIq6q0kbtqxsrfpMJLO3yK1z2V6LrOHcsPHdnqi8y9ZMhmQfyRZMVYI7veQTZ13FWkf2AINuaw6qESJlTys0liy79jtkHBaB6XtSAmKoKiFmgA3BYQAOvQIZX98cj6qqBZk/TQnAvI0qMrffTBqjhLPvmYGtwHs/Dc4wmgcwbskfbEqcU2XCdElww8z6bvnrHdMXDZuwu8eE8qCNazbF9U/Cd6qrhfdaLNJKcolZfDSkdvceg2trb9sB5kUMYmsbDXyWe4g6pwReOL57AvWg31pOSBi+8m2PofW5U9fwTBsGQixgYGpFvX0Sx4gAA 1x, data:image/webp;base64,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 2x"
+        media="(min-width: 1440px)"
+      />
+      <source
+        srcset="data:image/webp;base64,UklGRloEAABXRUJQVlA4WAoAAAAQAAAARQAARQAAQUxQSOYAAAABgFZrb97mhSAIghQGNhMLghm0DDIGhmAIhiAI6rftSH93TkRMAOYp13OorR+tJsZuKs0u2RPvoKJ23RsvK2rXLmu42+UHL0hqDvWYKua0TBRzW346zHH6gdWT8rdhrvuXYs7lA5t3pbe7OxMAbP6VgByACdAjaGALkXIMucZQWwx/I4ZhMWoQ/0pqECOGccbQagw1x5AoBkaLoAMSQQJIA2AA4u8GAKTu+A3iTfC5+xr4yupJ+RuypwO/ih/B7+JFMHuoB82Y53G9zlgqF1PBar5fSIWwkXO/RhPCbs61jQ06zpoJ81ZQOCBOAwAAcBAAnQEqRgBGAD6RPphIpaOiISpWDSiwEgllANBbbw5aY/u3iBl6tIaN42fqX2B+kb6LiRAIyn6POTcQ6bS7rzGLXw2CJdu9anyHyL7OpozuURjlq1AJvPWnV+43keIKPJGR0kJojEBRVR9+xpnCBvJztxsqEzOD1Wo3zWbeSeK3YUdy5z/mBCjR9IAA/vg38yBdKqyNvFBuegENb6nXPooNrk4tsw46fE41QdzmFwcSWyWO172AzZYTl0n1uh2PPOBvP67bZCWn6S+32dVTRXPN/Oqdw6NPRg1CubccavHaaIrZfVPui+DCiZwxFEMwKwmCg0IuGGPDT/C04GGEgKujXnLQf/zBUSg00WV/syXKvFkdmv05r33vI3P4vn//6Jh2zDsKmFZba+0EFlkV/4lUGU5AGWCpnWXeN91xX7mNNZLvFdUlBoqGI0FT2GhyTDqr1G9Q/jlVB0Q81Wi8WXrAr55kM2WpMRkfHgZW+ZUtb5c5DvawFtH234h0rZ9aIGJKp2zlDu+EphR2bZ8j/fPu6AW/QrLRMa1MYmAWDgzgfzP6IrdaTuYKfBOF9tmgm1YREYI0bvM6HQ2UvaSqsPBy12VflSjtjoYvmD7qI6O5mFH6eywpjxw7ader0ZBfmQZZcSebR+RXJdUR/A+Gj43Hm0W/bEmcVl+XHfnuPBZp7lCgWimC8bIB+QikE7Tw3kEzgX6PVbcL3Fz4M+u/oOpc64ZKJVJrdlCbiG9nDRN69c9KqmNKNcphw24n1tU0oSq5+PlKndHwaZ71Jrsv8bZzfi5vgQW75nYtNQgKlVPSIq6q0kbtqxsrfpMJLO3yK1z2V6LrOHcsPHdnqi8y9ZMhmQfyRZMVYI7veQTZ13FWkf2AINuaw6qESJlTys0liy79jtkHBaB6XtSAmKoKiFmgA3BYQAOvQIZX98cj6qqBZk/TQnAvI0qMrffTBqjhLPvmYGtwHs/Dc4wmgcwbskfbEqcU2XCdElww8z6bvnrHdMXDZuwu8eE8qCNazbF9U/Cd6qrhfdaLNJKcolZfDSkdvceg2trb9sB5kUMYmsbDXyWe4g6pwReOL57AvWg31pOSBi+8m2PofW5U9fwTBsGQixgYGpFvX0Sx4gAA 1x, data:image/webp;base64,UklGRmAKAABXRUJQVlA4WAoAAAAQAAAAiwAAiwAAQUxQSM8BAAABkFXbbt1aG4IgCEIgmMEpA5tBzKRhkDJwGRhCIAiCIeg883Asfd4bEROATinMS9mkafdNalnmQBgmpVX09tsaeQA0Vx1mjXyvUHWw5XEbmkUHLPEec9NBS+wviA5cYl9cdPArdxSbDl9iL/RUE5/UBYsaKdzB1NRMmS6Lamq8aFZj8yWzmpsviGpwPG1Sk6eTWGxqfAqJGi10xlPNfp6Q1PB4iMWyxkdeano5kNT4sE+sk11Jzc97xL5GfyV1YP5LPCB/PNSF4bfig/oLqxPpR/JC/lG9UAGwupGA5IcEvPywApsfBKSOpOCJkD2RF08sxRPv6olNPCHNE03/+//fj5snmnhCNk/U4on34okleyIHTwTyBEH8sAEvP6xA8kMEyA8MoHqhAkD2QvxBXuAfqD5449fgg4/fIB4Q/Jk9EP+iZp9gZ7Yv7oFYJ9gdrIv7UGxbcZCbZcJHkCyLOL7YteBEEquEzgA3m4Rx7mTThLOTRQnnZ3syrszWZFybbEm4ehI72oTrWawQRo+02LAQOk0yvpbQL79GVxhdJxmZBHSfZFQt45ZJRiQz4a6PMpoacGtOdRx1Jtyf02u7n6yJMEwK81KqtP6abGWZA6FTAFZQOCBqCAAA0CcAnQEqjACMAD6RPplKJaMiJqeXm7jQEglnCJAng4lYIQl/6NTtv5jw38sHx6ZHTh58Oz2XbgA7rGasq+Qu/VyzwvV/sEfrn1kv3M9kL9hDIj5dr2KkRZoFNfG0IClmLD1r9p5f51k1bvj76aUOXttLIhgwAV+x8JYaByKOeUQekniTA/wlcOXNLlbOz9xm4Ivf9KzTiXYTVaOQzwa8sgEfCFwXW/hjqwb0aZ6d7eQZ/xmuaPE6vnMYoAQfVy+wNxyjhtc6k73SK/P3THBIobeylQu2ShA6s8b82VBv9CO3ZhmmhAYUMJ/MKnw/RoQl6Hb/sniRIqD8ynerXPxvnARP++dDus7AHf6KBPnJcnI7Fq7n0aPMPCyw7cpmWxov7VA8GG96nu+RdUj0dsSsrqAE4IbNlDIvTSF/oP1xDfY6ANkrbl/AAP7+zLLf/yRSdEIOltDIODyncwTJMutMNgyK031NWODb/Mj+wGjsHKM/MEihwQ8K9vuIbsjmVTUdWbTfWV/2pnkn6+v1pvBLS8ZYGDqHsTz88W0cyDI8TqJ5F5RYvIyBxWUaJb4FVfz5ozkaOm4GTWQEZlDidbbBTd3RJ52uXx3QIMZEf+RAa8mf+Z63f8D8bZ+rRLc+b4TmbYbzxmVX1CsZ65gFbVrTVSTvxQ3jaRE8bMe9CIo2zFCvrGXOFjK40XXdIdtYX7torPhTxhIiKQmn3doAsZlcemao9kAChnO7tue4MvU7wPHd6ZgqFZgYJ3KLvsmr1v4775bLGSbomUIetksivd5b0lJ9kixal1h1QVa5EMMG5iwcXPrPh4PUIV8BSus4HR+qaR/rb/W2XU1EtZE4NfIGqNYn5d+T1mCUrUU1xGsxsFBd72nFaFrMEUNd1hhdAhttxzjl8b7TChylQIQuw3wOJzpXzLQFgoiOMRWwIDnuYn1ybLRPIDk2+CgIVkEw+52V+uighrJ0QXs8TtWPfz0sZgqZvtvehVd8gqv2P9gGRXW4cC8qwYqrkbiK4tsQ75pEFUZ3tZ4x5A3fOg6pDLu4IXAejTY5VQuEbxZrbHVOIHGxFnlDzj8AZmGlNPgQ2s3EaRtgorH4t9qRLxX/XZLNVTeXjWgVDTnvQ+Qd1PUeXsM4a8aTaIYL+121mvIolGoCS+Tl/gw+J7sSu8IXevNqULfHR+/R5ZrYorWPLnPtOSxYZQZUO4mnKXHNOjVonfMcDZTsxxm7sFqOMFqY9peInF9dLmAmMjG3KddgCex/9zqy51qPi8h6KHFVJ6IQemGBwo5YhbwEIi7HUGzK5H2zYvHdbIJK1qSt9tx08XV97LFvh8O4TLMeEl196ejirfx+WWejnGfI0rOr5RO25t17LQhUKGsZ8GJhwAB4OgZ+KPAsBE5tJRsBWVM+sdzSEvbNZlQOuSNA3v0aGWtRcAWUmF1Rwx8kwVcUc6T9FP3fYS23Z/iILTRoDMiQhaOkKgDL5FaqVoJNx6uXsosnbGMhk7dIdEQ4U3VlW4DXs66Ir83iLFKV7hVBCfYSDrl1/tsZjxQN+WodncK3s4BIkQq/lawjezEkN1PCNZmTqK6nKTK9ASsQIBJGmXQIcNN69q9G7rzqysKjnuzkhAra1n/tgh5Fcu2Kttv+GUlteIuST2FKKZLEFxoP6afywbbIdXa6jv1gQmyeJmyqsCqd9f15BySs5HpkYGhJUOmAwDMAejMnj9VzcgTc8ZkeejgIR5yvPgTwTxFHBgF8WKSfQUB/NERvKWv3JJ02iuZSqb8v7BCH8Vaxiq4hwY5o+Rj6NcD2DMVpj7PIv/0UEsg3fhWhy4PlBpfFOVWvrRsS2mbAfnDEUlwKisaHYfflOC0nHQJ4B1z9ntpgwq2tEuA5K+7YBnaD7zWfudXo9LgRtvN8jbRGD0lNEbv6khhtWtdwLBhS5OGvVqDo+m2xWPxVm5I/9wfKIRr0Tv/NKuXeIei6nxexmju7B8YQD8FuZ4pfSDHvxrt7YHuGECj1865Txa0PHILlRJM3P3JNGvvqu4NCHexrkUuUUi+3ejIofhcQfzUQpn8WLpWH7RXIBKpZ/LyOmO7syoZOdiMugA14Q3Ey5vI/DlQgnECqIO+96+D7ZhG0vWEfSKAWVw0sgeMxQbpL5YcrvJCG9BtDoIvGmftpy1DxAAurLZwJgTQ81sYUgT0x19NRuoJ30gJY2EmSo+YlFvpgW4lIkqZUjfC/T1Gc1qi258dMxCsjpg2TEF/tvwG6hW1vn2HzxRe+9XyP/DJY2pfDVVBMINJtH93QSxk4fNa5sEgyvo9FwhEgCi4ih6PYahCzV28/lXV8oyk8/hL65R1kqPYj0K97MG14S1WadHAM82wZ52nLWnfv7vuRId0XwAHESoJf/fAUA5DvoCjxzNv8iMwsy2JiKYmg8mokcWpQYh5hhkS1eIgf/ZyoIiqnqge4Brj3tJ9pSCzxwX9eUK3oyIg4ODnMck5iWBxBru2ygPQjTlY6ccvtYmKVAdINU0sy0nhcQhLKKwUbKq9QYpZYXr6MrYRsmc8TgE7iZcTknQFvISOARyb4SA3XS2AXPHbS3lo2/47+ph4rAgXQS3iPymyDJvo1/vxW2ReYjBf0WcMRj0EPvpVjQ/DzeKVLfRGxMunnSU0FLIn0A2vlzXIDtnwcSDmpNA6gKy896QDTCvj4g221pUHrdh2ariAYGfuL9Xth9OEIvc9sQnOxXAoUj0QBmrcpmhcsHhdygXO64xdPtliiIfPnFk6ZIf/ya288gvdwtSYKTwqIZKF4+v+Rgm6FhK6q/96UvVaUN/6wb0msUfZS/AWF1h3y9NT8WvVWp1vP5lgKmENeKz4IWvRDWcA+w2mT1R2/GGj6ZX83rZOdZT23AAAA 2x"
+        media="(min-width: 768px)"
+      />
+      <source
+        srcset="data:image/webp;base64,UklGRqwCAABXRUJQVlA4WAoAAAAQAAAAKwAAKwAAQUxQSI8AAAABZ2CQbeTgjeBmcG/0ERHRp4ydwk21bcty/zgbAewLQAEyeARWi6ARfPsj/BuM7va1+u1Z2SL6PwFAYfO1Efe1BH7zsTFHCd/Wxq4DHStMw03RwPwU+8TMSvNXTfGuGX407k/j2b/4V7P/aNynpnHRVOearPkp9gnuigZ0FRlgF68OYN5x3IQPs/pF8XoOAABWUDgg9gEAAPAKAJ0BKiwALAA+kUScSqWjoqGnKACwEgljAMKZoAhlgkvJm5yHp72Bf1k6l/oZ/sqk+s6CNEwO282CO6HkJE4a/XCZJPcTmUvkfHq6gzzPOvlDdyb8Y9FJfVthsC50mAD+/HmLDUGROALE0MFc0lH1cJcm0KPOrN7kyWLcSJLOi8ZNY1ljepgdy9sjwa5pHqr3ZTBRPJXS5Q1ptcxBEZiSUPAdDsLWePCg7wCG5eSewHBv8aVgJbjkNtH4sN8LWNVU3PzOg0424thY/3Nj137XlcwdZVlhxvEh8ubonFBBmSWNQ9oO2u2GZDmoRUVujonuzTU/bpEJXPKtKaML/miHiYG3jwfxrKfN6RbpvRmFfH6tO5BnO/xcKqXNtESGKIz3DR6QRK65KYrrI3EhAp7dtteZom558pEEOqRXXSoS8qshyXnzmxFbRDIsH5N0urpRl4dli74mHXXIZ+SOn1t08Sw+DrmodGsJTPVdPGHcj5mT3VJo9BjrUuiaPUBFbSXFMtkBJFdJmNPP9DiXEKS5pozYTVv+OKspSpBBCzaScETfOKnGzqZbhYY1236fxeWecqWIo8HaDBzIYJ39J3AgubnOWUPZRL4iWgRqPrlaT2CcXvlwPVw7l874KZyIyy0zzxxpAgv3IgM19h6BJXIZOP8EAAA= 1x, data:image/webp;base64,UklGRpgFAABXRUJQVlA4WAoAAAAQAAAAVwAAVwAAQUxQSOMAAAABgFXbbt3oQhAEQQoDm4kFwQxaBhkGhmAIgiAI6juv+z8RMQHYLrWvHnlmH70ojpY28qKz6BHSIq98091a5NXbPjqToOsOJZJiLJta0mwbWhJtPy1JtfygwSX0myfZ+aUlXfugyTfk7U4oDYAm4xCgUkoDJqcBTdJSWdXOqg9Wf87Kk3XQ+sdw0HJWvrIanVWvrIqwUgxOEzBOBZCgpACM0Q0AJAjpG4yP4fNk4/iqwSX0GyqXBb8aE8PvxsOwdQkOUbFdncFU7GqXC8Peer9UmOBArfMqwwRHa+3DTxW+9irYDgBWUDggjgQAANAUAJ0BKlgAWAA+kUCZSiWjoiGoFVwgsBIJZwDP/dCk9yMzaYmIqpRo/jZ+p/YF/Wzq9eir+0B4jlM3frNGbMFypolkuo3Cc5NF709Dar56NKDTnCrWd9tVGS8dwIYm9zy6cs11/ohvhUSxLcGE6w4Uevh7nWcDDS+e4LuGE6TRlenE+qKFMJwvJ0YaT9snk3H0ioWhicEZ8Xm7n29cGlphOeUyPnM8LdyIyCFfcfAA/vhWt7NLbSzJSs9zGkAkc5eU/0PCyarNb30sZF42i8/nC8EW25gD1kk7fNoKtHvXgbNF3kWCBQlkIvFjW10s9evXYPOvHnyEYuvna3rziw+2due57/ayTBLrecxSsikcTlIjxobr1aFxM58v7IB9sehG/YFKVDUpzoHpw0cQhR5e6EN84VHY265S+9shfNpdXeQoPQrAZezw71qP8ONY0Vmypc6KkfgTbs0P4rrhOrFC0L2yFedadSfteJvgUWekTDnF0r4cWCxo6A4MzlPZLYBY/ZxLnTkNTjvQSjsDD5TRs52ad6pzeuBw3W8booqsXQPAI1ILLHQEX6CuxnNmXl9W+H3BkG43fk3snhedlV3UC6ahihYk4rkeVvrR9e/CfmfLHrf7hfTi6g9XIaGWq1fYpI8HZYK4n1nr6zqB31Pv74O+t9wunLi9GOB48YmRAr/H5PtOIjm52ReM9lYC1McX4JCQ8re6Pztc+rCkJNI4dvNvBJ5Hoog8uMkn9DDzvrTLFaqH4on/oEI8I2Ufft+vEsv80FjVuilmopJjwLu1jsGQtiwaxDbHyOMIpDNFGvSaR6rj/iNQJNcOPsMGC7rteyzAWSwGux8nguytMoWvKqqE2tYXZJuSfIGNnmd1TyikX935HTxalWoHqD2g48RSnpbWAmXAYHEGP4+PnPPvtOXy6cUsgHr6nxSLjj+uCmv+6n5yN9xfmMJdWr16/My14B9teB2iW9gDyu5/Ne1EuvTlk53CzjhUyPTNCbimsKMMKMONcPqJY2ht4n4X+b2lnZ0hAkhbX8+K0r3pzVuXGs5PMCo3Q0qpciNEjiDErAqEJXRz+2aRV+vGy+vGB+qSv+2xW/QOIR7TI7XwI8XvEMg4qXC1RKpw/3ck30v8OLMV9mG/ESMgYcXtecTIbHIDqVbsZy7hvNlTsmq4uzmQqi+NY7CVcSHBC+NUbCTIKAB896M89X8bQb30HRTJdLA9POB1R8ihBZBUARIIY6gOBI1kWTdkW4DIWsk1baX5ZmeoBuL3dkP09/CBkd2Q9+jA301sHHLwiUC6SAVIWUH4A8A0EPtSEY+xVwzeKt+I4ItfBtCZhQEydXjHiDQJY+GVvHsy0zM6J3HOhpTCOdcIBQ3gAAvLEzH+AVfsZnelBGqv8sPmq4slXSXXQE/wzvRP12ZjM4tEO/jAq4iInuXiY6TZNv/WCpoax0P1ODFPKl7F7GWdep5+v8vfqEKwo5MbxLF0tOt7UTj3//oLNxSvKmld5qra91aUUojk7Qavu0ZVY5r4qEGcvmLFeMrg4iuKguouO49CoWwQAAAA 2x"
+        media="(max-width: 767px)"
+      />
+      <img
+        srcset="data:image/webp;base64,UklGRloEAABXRUJQVlA4WAoAAAAQAAAARQAARQAAQUxQSOYAAAABgFZrb97mhSAIghQGNhMLghm0DDIGhmAIhiAI6rftSH93TkRMAOYp13OorR+tJsZuKs0u2RPvoKJ23RsvK2rXLmu42+UHL0hqDvWYKua0TBRzW346zHH6gdWT8rdhrvuXYs7lA5t3pbe7OxMAbP6VgByACdAjaGALkXIMucZQWwx/I4ZhMWoQ/0pqECOGccbQagw1x5AoBkaLoAMSQQJIA2AA4u8GAKTu+A3iTfC5+xr4yupJ+RuypwO/ih/B7+JFMHuoB82Y53G9zlgqF1PBar5fSIWwkXO/RhPCbs61jQ06zpoJ81ZQOCBOAwAAcBAAnQEqRgBGAD6RPphIpaOiISpWDSiwEgllANBbbw5aY/u3iBl6tIaN42fqX2B+kb6LiRAIyn6POTcQ6bS7rzGLXw2CJdu9anyHyL7OpozuURjlq1AJvPWnV+43keIKPJGR0kJojEBRVR9+xpnCBvJztxsqEzOD1Wo3zWbeSeK3YUdy5z/mBCjR9IAA/vg38yBdKqyNvFBuegENb6nXPooNrk4tsw46fE41QdzmFwcSWyWO172AzZYTl0n1uh2PPOBvP67bZCWn6S+32dVTRXPN/Oqdw6NPRg1CubccavHaaIrZfVPui+DCiZwxFEMwKwmCg0IuGGPDT/C04GGEgKujXnLQf/zBUSg00WV/syXKvFkdmv05r33vI3P4vn//6Jh2zDsKmFZba+0EFlkV/4lUGU5AGWCpnWXeN91xX7mNNZLvFdUlBoqGI0FT2GhyTDqr1G9Q/jlVB0Q81Wi8WXrAr55kM2WpMRkfHgZW+ZUtb5c5DvawFtH234h0rZ9aIGJKp2zlDu+EphR2bZ8j/fPu6AW/QrLRMa1MYmAWDgzgfzP6IrdaTuYKfBOF9tmgm1YREYI0bvM6HQ2UvaSqsPBy12VflSjtjoYvmD7qI6O5mFH6eywpjxw7ader0ZBfmQZZcSebR+RXJdUR/A+Gj43Hm0W/bEmcVl+XHfnuPBZp7lCgWimC8bIB+QikE7Tw3kEzgX6PVbcL3Fz4M+u/oOpc64ZKJVJrdlCbiG9nDRN69c9KqmNKNcphw24n1tU0oSq5+PlKndHwaZ71Jrsv8bZzfi5vgQW75nYtNQgKlVPSIq6q0kbtqxsrfpMJLO3yK1z2V6LrOHcsPHdnqi8y9ZMhmQfyRZMVYI7veQTZ13FWkf2AINuaw6qESJlTys0liy79jtkHBaB6XtSAmKoKiFmgA3BYQAOvQIZX98cj6qqBZk/TQnAvI0qMrffTBqjhLPvmYGtwHs/Dc4wmgcwbskfbEqcU2XCdElww8z6bvnrHdMXDZuwu8eE8qCNazbF9U/Cd6qrhfdaLNJKcolZfDSkdvceg2trb9sB5kUMYmsbDXyWe4g6pwReOL57AvWg31pOSBi+8m2PofW5U9fwTBsGQixgYGpFvX0Sx4gAA 1x, data:image/webp;base64,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 2x"
+        src="data:image/webp;base64,UklGRloEAABXRUJQVlA4WAoAAAAQAAAARQAARQAAQUxQSOYAAAABgFZrb97mhSAIghQGNhMLghm0DDIGhmAIhiAI6rftSH93TkRMAOYp13OorR+tJsZuKs0u2RPvoKJ23RsvK2rXLmu42+UHL0hqDvWYKua0TBRzW346zHH6gdWT8rdhrvuXYs7lA5t3pbe7OxMAbP6VgByACdAjaGALkXIMucZQWwx/I4ZhMWoQ/0pqECOGccbQagw1x5AoBkaLoAMSQQJIA2AA4u8GAKTu+A3iTfC5+xr4yupJ+RuypwO/ih/B7+JFMHuoB82Y53G9zlgqF1PBar5fSIWwkXO/RhPCbs61jQ06zpoJ81ZQOCBOAwAAcBAAnQEqRgBGAD6RPphIpaOiISpWDSiwEgllANBbbw5aY/u3iBl6tIaN42fqX2B+kb6LiRAIyn6POTcQ6bS7rzGLXw2CJdu9anyHyL7OpozuURjlq1AJvPWnV+43keIKPJGR0kJojEBRVR9+xpnCBvJztxsqEzOD1Wo3zWbeSeK3YUdy5z/mBCjR9IAA/vg38yBdKqyNvFBuegENb6nXPooNrk4tsw46fE41QdzmFwcSWyWO172AzZYTl0n1uh2PPOBvP67bZCWn6S+32dVTRXPN/Oqdw6NPRg1CubccavHaaIrZfVPui+DCiZwxFEMwKwmCg0IuGGPDT/C04GGEgKujXnLQf/zBUSg00WV/syXKvFkdmv05r33vI3P4vn//6Jh2zDsKmFZba+0EFlkV/4lUGU5AGWCpnWXeN91xX7mNNZLvFdUlBoqGI0FT2GhyTDqr1G9Q/jlVB0Q81Wi8WXrAr55kM2WpMRkfHgZW+ZUtb5c5DvawFtH234h0rZ9aIGJKp2zlDu+EphR2bZ8j/fPu6AW/QrLRMa1MYmAWDgzgfzP6IrdaTuYKfBOF9tmgm1YREYI0bvM6HQ2UvaSqsPBy12VflSjtjoYvmD7qI6O5mFH6eywpjxw7ader0ZBfmQZZcSebR+RXJdUR/A+Gj43Hm0W/bEmcVl+XHfnuPBZp7lCgWimC8bIB+QikE7Tw3kEzgX6PVbcL3Fz4M+u/oOpc64ZKJVJrdlCbiG9nDRN69c9KqmNKNcphw24n1tU0oSq5+PlKndHwaZ71Jrsv8bZzfi5vgQW75nYtNQgKlVPSIq6q0kbtqxsrfpMJLO3yK1z2V6LrOHcsPHdnqi8y9ZMhmQfyRZMVYI7veQTZ13FWkf2AINuaw6qESJlTys0liy79jtkHBaB6XtSAmKoKiFmgA3BYQAOvQIZX98cj6qqBZk/TQnAvI0qMrffTBqjhLPvmYGtwHs/Dc4wmgcwbskfbEqcU2XCdElww8z6bvnrHdMXDZuwu8eE8qCNazbF9U/Cd6qrhfdaLNJKcolZfDSkdvceg2trb9sB5kUMYmsbDXyWe4g6pwReOL57AvWg31pOSBi+8m2PofW5U9fwTBsGQixgYGpFvX0Sx4gAA"
+        alt="logo"
+        class="footer-logo"
+        width="70"
+        loading="lazy"
+      />
+    </picture>
+
+     <h2 class="footer-title"><span> let`s </span> <span class="footer-span"> work </span></h2>
+     <h2 class="footer-title"> together</h2>
+  </div>
+
+  
+   <form class="footer-form" autocomplete="off">
+    <label>
+      <input class="footer-form-item" type="email" name="email"  pattern="^\w+(\.\w+)?@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$" placeholder="clients@gmail.com" required/>
+    </label>
+    <label>
+      <input class="footer-form-item" name="comments" placeholder="comments" required/>
+    </label>
+    <button class="footer-button" type="submit">Send</button>
+  </form>
+
+
+  
+  <address class="footer-adress">
+    <ul class="list-address">
+        <a class="address-link" href="mailto:lloydjefferson@gmail.com">  
+          <li class="address-item"> 
+            lloydjefferson@gmail.com
+          </li>
+        </a>
+        
+        <a href="tel:+3801111111111" class="address-link">
+          <li class="address-item">
+            +380 11 1111 11 11
+          </li>
+        </a>
+    </ul>
+  </address>
+
+
+</div>
+  </div>
+</footer>
+
+
+
+
+    
+
+
+<section class="modal-window" id="Modal-response">
+    <div class="container res-window">
+        
+
+            <button data-close class="btn-close-res">
+                <svg class="icon-close" width="22" height="22">
+                    <use href="/js_113_Code-Academy/assets/icons-BXQt0PIq.svg#icon-x">
+                   </use>
+                </svg>
+            </button>  
+   
+
+            <h2 class="res-title"> 
+                Thank you for your interest in cooperation!
+            </h2>
+            <p class="res-mess"> 
+                The manager will contact you shortly to discuss further details and opportunities for cooperation. Please stay in touch.
+            </p>
+
+                
+    </div>
+</section>
+
+
+
+  </body>
+</html>
